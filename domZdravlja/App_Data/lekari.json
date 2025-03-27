@@ -1,0 +1,204 @@
+[
+  {
+    "KorisnickoIme": "drjovan",
+    "Sifra": "sifra123",
+    "Ime": "Jovan",
+    "Prezime": "Jovanovic",
+    "DatumRodjenja": "1980-04-15T00:00:00",
+    "Email": "jovan.jovanovic@example.com",
+    "ZakazaniTermini": [
+      {
+        "Id": 0,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-09-10T14:00:00",
+        "OpisTerapije": "Pregled"
+      },
+      {
+        "Id": 9297,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-09-30T13:14:00",
+        "OpisTerapije": "Kontrola"
+      },
+      {
+        "Id": 5515,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-10-01T16:40:00",
+        "OpisTerapije": "Srce"
+      },
+      {
+        "Id": 2324,
+        "Lekar": {
+          "KorisnickoIme": "drjovan",
+          "Sifra": "sifra123",
+          "Ime": "Jovan",
+          "Prezime": "Jovanovic",
+          "DatumRodjenja": "1980-04-15T00:00:00",
+          "Email": "jovan.jovanovic@example.com",
+          "ZakazaniTermini": [
+            {
+              "Id": 0,
+              "Lekar": null,
+              "StatusTermina": 1,
+              "DatumZakazanogTermina": "2024-09-10T14:00:00",
+              "OpisTerapije": "Pregled"
+            },
+            {
+              "Id": 9297,
+              "Lekar": null,
+              "StatusTermina": 1,
+              "DatumZakazanogTermina": "2024-09-30T13:14:00",
+              "OpisTerapije": "Kontrola"
+            },
+            {
+              "Id": 5515,
+              "Lekar": null,
+              "StatusTermina": 1,
+              "DatumZakazanogTermina": "2024-10-01T16:40:00",
+              "OpisTerapije": "Srce"
+            }
+          ],
+          "SlobodniTermini": []
+        },
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-10-01T00:17:00",
+        "OpisTerapije": "nesto"
+      },
+      {
+        "Id": 9807,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-09-05T19:08:00",
+        "OpisTerapije": null
+      }
+    ],
+    "SlobodniTermini": [
+      {
+        "Id": 2324,
+        "Lekar": null,
+        "StatusTermina": 0,
+        "DatumZakazanogTermina": "2024-10-01T00:17:00",
+        "OpisTerapije": "Pregled"
+      }
+    ]
+  },
+  {
+    "KorisnickoIme": "drpetar",
+    "Sifra": "sifra456",
+    "Ime": "Petar",
+    "Prezime": "Petrovic",
+    "DatumRodjenja": "1975-02-20T00:00:00",
+    "Email": "petar.petrovic@example.com",
+    "ZakazaniTermini": [
+      {
+        "Id": 1,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-09-15T10:00:00",
+        "OpisTerapije": "Kontrola"
+      }
+    ],
+    "SlobodniTermini": [
+      {
+        "Id": 1,
+        "Lekar": null,
+        "StatusTermina": 0,
+        "DatumZakazanogTermina": "2024-09-25T11:00:00",
+        "OpisTerapije": ""
+      }
+    ]
+  },
+  {
+    "KorisnickoIme": "drana",
+    "Sifra": "sifra789",
+    "Ime": "Ana",
+    "Prezime": "Anic",
+    "DatumRodjenja": "1988-07-10T00:00:00",
+    "Email": "ana.anic@example.com",
+    "ZakazaniTermini": [
+      {
+        "Id": 2,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-09-12T08:30:00",
+        "OpisTerapije": "Povreda"
+      }
+    ],
+    "SlobodniTermini": [
+      {
+        "Id": 2,
+        "Lekar": null,
+        "StatusTermina": 0,
+        "DatumZakazanogTermina": "2024-09-30T14:30:00",
+        "OpisTerapije": ""
+      }
+    ]
+  },
+  {
+    "KorisnickoIme": "drmarko",
+    "Sifra": "sifra321",
+    "Ime": "Marko",
+    "Prezime": "Markovic",
+    "DatumRodjenja": "1982-11-25T00:00:00",
+    "Email": "marko.markovic@example.com",
+    "ZakazaniTermini": [
+      {
+        "Id": 3,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-09-18T13:00:00",
+        "OpisTerapije": "Terapija"
+      }
+    ],
+    "SlobodniTermini": [
+      {
+        "Id": 3,
+        "Lekar": null,
+        "StatusTermina": 0,
+        "DatumZakazanogTermina": "2024-09-28T15:00:00",
+        "OpisTerapije": ""
+      }
+    ]
+  },
+  {
+    "KorisnickoIme": "drmilica",
+    "Sifra": "sifra654",
+    "Ime": "Milica",
+    "Prezime": "Milic",
+    "DatumRodjenja": "1990-05-18T00:00:00",
+    "Email": "milica.milic@example.com",
+    "ZakazaniTermini": [
+      {
+        "Id": 4,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-09-22T09:00:00",
+        "OpisTerapije": "Ginekološki pregled"
+      },
+      {
+        "Id": 3781,
+        "Lekar": null,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-10-06T19:49:00",
+        "OpisTerapije": "Srce"
+      },
+      {
+        "Id": 5176,
+        "StatusTermina": 1,
+        "DatumZakazanogTermina": "2024-10-13T01:58:00",
+        "OpisTerapije": "Bubrezi"
+      }
+    ],
+    "SlobodniTermini": [
+      {
+        "Id": 4,
+        "Lekar": null,
+        "StatusTermina": 0,
+        "DatumZakazanogTermina": "2024-09-30T08:00:00",
+        "OpisTerapije": ""
+      }
+    ]
+  }
+]

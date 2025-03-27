@@ -1,0 +1,81 @@
+[
+    {
+        "Pacijent": {
+            "KorisnickoIme": "milan.jovanovic",
+            "JMBG": "1234567890123",
+            "Sifra": "sifra123",
+            "Ime": "Milan",
+            "Prezime": "Jovanović",
+            "DatumRodjenja": "1985-06-15T00:00:00",
+            "Email": "milan.jovanovic@example.com",
+            "ZakazaniTermini": [
+                {
+                    "Id": 1,
+                    "Lekar": {
+                        "KorisnickoIme": "ana.nikolic",
+                        "Sifra": "sifraLekar1",
+                        "Ime": "Ana",
+                        "Prezime": "Nikolić",
+                        "DatumRodjenja": "1978-03-22T00:00:00",
+                        "Email": "ana.nikolic@example.com",
+                        "ZakazaniTermini": [],
+                        "SlobodniTermini": []
+                    },
+                    "StatusTermina": "Slobodan",
+                    "DatumZakazanogTermina": "2024-09-01T10:00:00",
+                    "OpisTerapije": "Paracetamol 500mg"
+                },
+                {
+                    "Id": 2,
+                    "Lekar": {
+                        "KorisnickoIme": "marko.petrovic",
+                        "Sifra": "sifraLekar2",
+                        "Ime": "Marko",
+                        "Prezime": "Petrović",
+                        "DatumRodjenja": "1982-12-05T00:00:00",
+                        "Email": "marko.petrovic@example.com",
+                        "ZakazaniTermini": [],
+                        "SlobodniTermini": []
+                    },
+                    "StatusTermina": "Zakazan",
+                    "DatumZakazanogTermina": "2024-09-15T14:30:00",
+                    "OpisTerapije": "Brufen 200mg"
+                }
+            ]
+        },
+        "Termini": [
+            {
+                "Id": 1,
+                "Lekar": {
+                    "KorisnickoIme": "ana.nikolic",
+                    "Sifra": "sifraLekar1",
+                    "Ime": "Ana",
+                    "Prezime": "Nikolić",
+                    "DatumRodjenja": "1978-03-22T00:00:00",
+                    "Email": "ana.nikolic@example.com",
+                    "ZakazaniTermini": [],
+                    "SlobodniTermini": []
+                },
+                "StatusTermina": "Slobodan",
+                "DatumZakazanogTermina": "2024-09-01T10:00:00",
+                "OpisTerapije": "Paracetamol 500mg"
+            },
+            {
+                "Id": 2,
+                "Lekar": {
+                    "KorisnickoIme": "marko.petrovic",
+                    "Sifra": "sifraLekar2",
+                    "Ime": "Marko",
+                    "Prezime": "Petrović",
+                    "DatumRodjenja": "1982-12-05T00:00:00",
+                    "Email": "marko.petrovic@example.com",
+                    "ZakazaniTermini": [],
+                    "SlobodniTermini": []
+                },
+                "StatusTermina": "Zakazan",
+                "DatumZakazanogTermina": "2024-09-15T14:30:00",
+                "OpisTerapije": "Brufen 200mg"
+            }
+        ]
+    }
+]

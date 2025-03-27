@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Specifičniji CSS za ovu stranicu */
+        .prepisivanje-terapije-container {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+        }
+
+        h2.prepisivanje-terapije-header {
+            text-align: center;
+            color: #333;
+        }
+
+        .prepisivanje-terapije-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .prepisivanje-terapije-select, .prepisivanje-terapije-textarea {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .prepisivanje-terapije-button {
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .prepisivanje-terapije-button:hover {
+                background-color: #0056b3;
+            }
+
+        .prepisivanje-terapije-back-link {
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .prepisivanje-terapije-back-link:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container body-content">
+        <div class="prepisivanje-terapije-container">
+            <h2 class="prepisivanje-terapije-header">Prepisivanje Terapije</h2>
+
+            <form action="/Lekar/PrepisivanjeTerapije" method="post" class="prepisivanje-terapije-form">
+                <div class="form-group">
+                    <label for="terminId">Odaberite Termin</label>
+                    <select id="terminId" name="terminId" class="prepisivanje-terapije-select">
+                        <option value="">Izaberite Termin</option>
+                        <!-- Prikazivanje termina u dropdown listi -->
+                        @foreach (var termin in ViewBag.ZakazaniTermini as IEnumerable<SelectListItem>)
+                        {
+                            <option value="@termin.Value">@termin.Text</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="opisTerapije">Opis Terapije</label>
+                    <textarea id="opisTerapije" name="opisTerapije" class="prepisivanje-terapije-textarea" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="prepisivanje-terapije-button">Prepiši Terapiju</button>
+            </form>
+
+            <a href="@Url.Action("Index", "Lekar")" class="prepisivanje-terapije-back-link">Nazad</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+﻿@model List<domZdravlja.Models.Termin>
+
+@{
+    ViewBag.Title = "Pregled Terapija";
+}
+
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        h2 {
+            color: #343a40;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        thead {
+            background-color: #007bff;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        th, td {
+            padding: 15px 20px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        th {
+            font-weight: 600;
+            font-size: 14px;
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+        }
+
+        td {
+            font-size: 16px;
+            color: #495057;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        tr:hover {
+            background-color: #e2e6ea;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            color: white;
+            background-color: #28a745;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            max-width: 200px;
+            text-align: center;
+        }
+
+            .btn:hover {
+                background-color: #218838;
+            }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pregled Terapija</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Lekar</th>
+                <th>Datum i Vreme</th>
+                <th>Opis terapije</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var termin in Model)
+            {
+                <tr>
+                    <td>@termin.Lekar.Ime @termin.Lekar.Prezime</td>
+                    <td>@termin.DatumZakazanogTermina.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>@termin.OpisTerapije</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a href="@Url.Action("Index", "Pacijent")" class="btn" style="margin-top: 20px;">Nazad na slobodne termine</a>
+</body>
+</html>

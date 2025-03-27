@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Specifičniji CSS za ovu stranicu */
+        .kreiraj-termin-container {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+        }
+
+        h2.kreiraj-termin-header {
+            text-align: center;
+            color: #333;
+        }
+
+        .kreiraj-termin-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .kreiraj-termin-input {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .kreiraj-termin-button {
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .kreiraj-termin-button:hover {
+                background-color: #0056b3;
+            }
+
+        .kreiraj-termin-back-link {
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .kreiraj-termin-back-link:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container body-content">
+        <div class="kreiraj-termin-container">
+            <h2 class="kreiraj-termin-header">Kreiranje termina</h2>
+
+            <form action="~/Lekar/DodajTermin" method="post" class="kreiraj-termin-form">
+                <input type="hidden" name="statusTermina" value="Slobodan" />
+
+                <input type="datetime-local" placeholder="Datum termina" id="datumZakazanogTermina" name="datumZakazanogTermina" required class="kreiraj-termin-input" />
+
+                <button type="submit" class="kreiraj-termin-button">Dodaj termin</button>
+            </form>
+
+            <a href="@Url.Action("Index", "Lekar")" class="kreiraj-termin-back-link">Nazad</a>
+        </div>
+    </div>
+</body>
+</html>

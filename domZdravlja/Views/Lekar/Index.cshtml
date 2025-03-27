@@ -1,0 +1,97 @@
+﻿@model IEnumerable<domZdravlja.Models.Termin>
+
+<html>
+<head>
+    <style>
+        /* Specifičniji CSS za ovu stranicu */
+        .index-container {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        h2.index-header {
+            text-align: center;
+            color: #333;
+        }
+
+        .index-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+            .index-table th, .index-table td {
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .index-table th {
+                background-color: #007bff;
+                color: white;
+            }
+
+            .index-table tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            .index-table tr:hover {
+                background-color: #e9e9e9;
+            }
+
+        .index-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+            .index-btn:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="index-container">
+        <h2 class="index-header">Termini</h2>
+
+        <table class="index-table">
+            <thead>
+                <tr>
+                    <th>Datum i Vreme</th>
+                    <th>Status termina</th>
+                    <th>Opis terapije</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var termin in Model)
+                {
+                    <tr>
+                        <td>@termin.DatumZakazanogTermina.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>@termin.StatusTermina</td>
+                        <td>@termin.OpisTerapije</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="text-center">
+            <a href="@Url.Action("KreirajTermin", "Lekar")" class="index-btn">Kreiraj Novi Termin</a>
+            <a href="@Url.Action("PrepisivanjeTerapije", "Lekar")" class="index-btn" style="margin-left: 10px;">Prepisi Terapiju</a>
+        </div>
+    </div>
+</body>
+</html>

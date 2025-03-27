@@ -1,0 +1,93 @@
+﻿@{ 
+    Layout = null;
+}
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #f0f0f0;
+                font-family: Arial, sans-serif;
+            }
+
+            form {
+                background: white;
+                padding: 40px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+                width: 300px;
+            }
+
+            h1 {
+                margin-bottom: 20px;
+                color: #333;
+                font-size: 24px;
+            }
+
+            .input-field {
+                margin-bottom: 15px;
+            }
+
+                .input-field input {
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                }
+
+            input:focus {
+                border-color: #007bff;
+                outline: none;
+            }
+
+            h2 {
+                font-size: 14px;
+                color: red;
+                margin-top: 15px;
+            }
+
+            button {
+                width: 100%;
+                padding: 10px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+                button:hover {
+                    background-color: #0056b3;
+                }
+
+        </style>
+    </head>
+
+    <body>
+        <form action="~/Home/Prijava" method="post">
+            <h1>Prijava</h1>
+            <div class="content">
+                <div class="input-field">
+                    <input type="text" name="korisnickoIme" placeholder="Korisnicko ime" required autofocus/>
+                </div>
+
+                <div class="input-field">
+                    <input type="password" name="sifra" placeholder="Sifra" required/>
+                </div>
+
+                <h2 style="color: red; padding-top: 15px;">@Session["Error"]</h2>
+            </div>
+            <div class="action">
+                <button>Prijava</button>
+            </div>
+        </form>
+    </body>
+</html>

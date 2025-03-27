@@ -1,0 +1,171 @@
+﻿@model domZdravlja.Models.Pacijent
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS za greške */
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+
+        .alert-danger {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+
+            .alert-danger .alert-heading {
+                color: #721c24;
+            }
+
+            .alert-danger p {
+                margin: 0;
+            }
+        /* Specifični CSS za ovu stranicu */
+        body.izmeni-pacijenta {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        .izmeni-pacijenta-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .izmeni-pacijenta-header {
+            color: #343a40;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .izmeni-pacijenta-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"], input[type="datetime-local"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        input[readonly] {
+            background-color: #e9ecef;
+            cursor: not-allowed;
+        }
+
+        input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="datetime-local"]:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        a.izmeni-pacijenta-back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+            a.izmeni-pacijenta-back-link:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body class="izmeni-pacijenta">
+    <div class="">
+        @if (Session["Error"] != null)
+        {
+            var greske = (List<string>)Session["Error"];
+            <div class="alert alert-danger">
+                @foreach (var greska in greske)
+                {
+                    <p>@greska</p>
+                }
+            </div>
+            Session["Error"] = null; // Očisti greške nakon prikazivanja
+        }
+    </div>
+    <div class="izmeni-pacijenta-container">
+        <h2 class="izmeni-pacijenta-header">Izmeni Pacijenta</h2>
+
+        <form action="~/Administrator/Azuriranje" method="post" class="izmeni-pacijenta-form">
+            <div class="form-group">
+                <input type="text" placeholder="Korisnicko ime" value="@Model.KorisnickoIme" id="korisnickoIme" name="korisnickoIme" required readonly />
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Jmbg" value="@Model.JMBG" id="jmbg" name="jmbg" required readonly />
+            </div>
+
+            <div class="form-group">
+                <input type="password" placeholder="Sifra" value="@Model.Sifra" id="sifra" name="sifra" required />
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Ime" value="@Model.Ime" id="ime" name="ime" required />
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Prezime" value="@Model.Prezime" id="prezime" name="prezime" required />
+            </div>
+
+            <div class="form-group">
+                <input type="datetime-local" placeholder="Datum rodjenja" value="@Model.DatumRodjenja.ToString("yyyy-MM-ddTHH:mm")" id="datumRodjenja" name="datumRodjenja" required />
+            </div>
+
+            <div class="form-group">
+                <input type="email" placeholder="Email" value="@Model.Email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Izmeni pacijenta</button>
+            </div>
+        </form>
+
+        <a href="@Url.Action("Index", "Administrator")" class="izmeni-pacijenta-back-link">Nazad</a>
+    </div>
+</body>
+</html>

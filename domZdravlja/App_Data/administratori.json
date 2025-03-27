@@ -1,0 +1,20 @@
+[
+    {
+        "KorisnickoIme": "admin1",
+        "JMBG": "1234567890123",
+        "Sifra": "adminpass",
+        "Ime": "Ivan",
+        "Prezime": "Petrovic",
+        "DatumRodjenja": "1980-05-15",
+        "Email": "ivan.petrovic@example.com"
+    },
+    {
+        "KorisnickoIme": "admin2",
+        "JMBG": "2345678901234",
+        "Sifra": "adminpass2",
+        "Ime": "Jelena",
+        "Prezime": "Jankovic",
+        "DatumRodjenja": "1975-11-22",
+        "Email": "jelena.jankovic@example.com"
+    }
+]

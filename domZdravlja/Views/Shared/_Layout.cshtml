@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .navbar {
+            background-color: #343a40;
+            padding: 10px 20px;
+        }
+
+        .navbar-nav {
+            margin: 0;
+        }
+
+            .navbar-nav li {
+                list-style: none;
+                margin-left: 15px;
+            }
+
+            .navbar-nav a {
+                color: #ffffff;
+                text-decoration: none;
+                padding: 10px 15px;
+                display: block;
+            }
+
+                .navbar-nav a:hover {
+                    background-color: #495057;
+                    border-radius: 5px;
+                }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .navbar-nav .odjava {
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    @if (Session["TipKorisnika"] != null)
+                    {
+                        var tipKorisnika = Session["TipKorisnika"].ToString();
+                        switch (tipKorisnika)
+                        {
+                            case "Pacijent":
+                                <li class="nav-item">
+                                    @Html.ActionLink("Home", "Index", "Pacijent", new { area = "" }, new { @class = "nav-link" })
+                                </li>
+                                break;
+                            case "Lekar":
+                                <li class="nav-item">
+                                    @Html.ActionLink("Home", "Index", "Lekar", new { area = "" }, new { @class = "nav-link" })
+                                </li>
+                                break;
+                            case "Administrator":
+                                <li class="nav-item">
+                                    @Html.ActionLink("Home", "Index", "Administrator", new { area = "" }, new { @class = "nav-link" })
+                                </li>
+                                break;
+                        }
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })
+                        </li>
+                    }
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item odjava">
+                        @Html.ActionLink("Odjava", "Odjava", "Home", new { area = "" }, new { @class = "nav-link" })
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

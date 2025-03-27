@@ -1,0 +1,423 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|c:\\users\\burgija\\desktop\\olaksaniprojekat-master\\healthbooker\\domzdravlja\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|c:\\users\\burgija\\desktop\\olaksaniprojekat-master\\healthbooker\\domzdravlja\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|c:\\users\\burgija\\desktop\\olaksaniprojekat-master\\healthbooker\\domzdravlja\\views\\lekar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\views\\lekar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\views\\administrator\\izmenipacijenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\views\\administrator\\izmenipacijenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\views\\administrator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\views\\administrator\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\views\\administrator\\dodajpacijenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\views\\administrator\\dodajpacijenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\scripts\\modernizr-2.8.3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\scripts\\modernizr-2.8.3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\helpers\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\helpers\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\controllers\\pacijentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\controllers\\pacijentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\domZdravlja.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\controllers\\pacijentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\domZdravlja.csproj|solutionrelative:domzdravlja\\controllers\\pacijentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\controllers\\lekarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\controllers\\lekarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\content\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\content\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\domZdravlja.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\controllers\\lekarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\domZdravlja.csproj|solutionrelative:domzdravlja\\controllers\\lekarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\app_data\\administratori.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\app_data\\administratori.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\app_data\\pacijenti.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\HealthBooker.csproj|solutionrelative:domzdravlja\\app_data\\pacijenti.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\domZdravlja.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\app_data\\termini.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\domZdravlja.csproj|solutionrelative:domzdravlja\\app_data\\termini.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\domZdravlja.csproj|C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domzdravlja\\app_data\\lekari.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{357CA27D-DBD6-45A9-8795-AD26FFBD6BAE}|domZdravlja\\domZdravlja.csproj|solutionrelative:domzdravlja\\app_data\\lekari.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Web.config",
+              "RelativeDocumentMoniker": "domZdravlja\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Web.config",
+              "RelativeToolTip": "domZdravlja\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-27T17:12:33.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "domZdravlja\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "domZdravlja\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T17:12:28.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Lekar\\Index.cshtml",
+              "RelativeDocumentMoniker": "domZdravlja\\Views\\Lekar\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Lekar\\Index.cshtml",
+              "RelativeToolTip": "domZdravlja\\Views\\Lekar\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T17:08:03.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "domZdravlja\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "domZdravlja\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T17:07:28.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IzmeniPacijenta.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Administrator\\IzmeniPacijenta.cshtml",
+              "RelativeDocumentMoniker": "domZdravlja\\Views\\Administrator\\IzmeniPacijenta.cshtml",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Administrator\\IzmeniPacijenta.cshtml",
+              "RelativeToolTip": "domZdravlja\\Views\\Administrator\\IzmeniPacijenta.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T17:06:44.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Administrator\\Index.cshtml",
+              "RelativeDocumentMoniker": "domZdravlja\\Views\\Administrator\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Administrator\\Index.cshtml",
+              "RelativeToolTip": "domZdravlja\\Views\\Administrator\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T17:06:15.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DodajPacijenta.cshtml",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Administrator\\DodajPacijenta.cshtml",
+              "RelativeDocumentMoniker": "domZdravlja\\Views\\Administrator\\DodajPacijenta.cshtml",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Views\\Administrator\\DodajPacijenta.cshtml",
+              "RelativeToolTip": "domZdravlja\\Views\\Administrator\\DodajPacijenta.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T17:04:23.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "modernizr-2.8.3.js",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Scripts\\modernizr-2.8.3.js",
+              "RelativeDocumentMoniker": "domZdravlja\\Scripts\\modernizr-2.8.3.js",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Scripts\\modernizr-2.8.3.js",
+              "RelativeToolTip": "domZdravlja\\Scripts\\modernizr-2.8.3.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-27T17:03:29.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Administrator.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Models\\Administrator.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\Models\\Administrator.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Models\\Administrator.cs",
+              "RelativeToolTip": "domZdravlja\\Models\\Administrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:02:13.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Helpers\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\Helpers\\JsonHelper.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Helpers\\JsonHelper.cs",
+              "RelativeToolTip": "domZdravlja\\Helpers\\JsonHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:01:45.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PacijentController.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\PacijentController.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\Controllers\\PacijentController.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\PacijentController.cs",
+              "RelativeToolTip": "domZdravlja\\Controllers\\PacijentController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAcwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:01:39.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "domZdravlja\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:58:54.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdministratorController.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\AdministratorController.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\Controllers\\AdministratorController.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\AdministratorController.cs",
+              "RelativeToolTip": "domZdravlja\\Controllers\\AdministratorController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:58:20.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Content\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "domZdravlja\\Content\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Content\\bootstrap-grid.css",
+              "RelativeToolTip": "domZdravlja\\Content\\bootstrap-grid.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-27T16:57:34.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Content\\Site.css",
+              "RelativeDocumentMoniker": "domZdravlja\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Content\\Site.css",
+              "RelativeToolTip": "domZdravlja\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-27T16:57:16.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "domZdravlja\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:56:48.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "domZdravlja\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:56:34.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "domZdravlja\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:54:40.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LekarController.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\LekarController.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\Controllers\\LekarController.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\LekarController.cs",
+              "RelativeToolTip": "domZdravlja\\Controllers\\LekarController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAqwLMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:54:37.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "administratori.json",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Data\\administratori.json",
+              "RelativeDocumentMoniker": "domZdravlja\\App_Data\\administratori.json",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Data\\administratori.json",
+              "RelativeToolTip": "domZdravlja\\App_Data\\administratori.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T16:53:02.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "termini.json",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Data\\termini.json",
+              "RelativeDocumentMoniker": "domZdravlja\\App_Data\\termini.json",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Data\\termini.json",
+              "RelativeToolTip": "domZdravlja\\App_Data\\termini.json",
+              "ViewState": "AQIAAEoBAAAAAAAAAAAqwG8BAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T14:38:54.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "pacijenti.json",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Data\\pacijenti.json",
+              "RelativeDocumentMoniker": "domZdravlja\\App_Data\\pacijenti.json",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Data\\pacijenti.json",
+              "RelativeToolTip": "domZdravlja\\App_Data\\pacijenti.json",
+              "ViewState": "AgIAAFwBAAAAAAAAAAAqwIoBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T14:37:05.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PacijentController.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\PacijentController.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\Controllers\\PacijentController.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\PacijentController.cs",
+              "RelativeToolTip": "domZdravlja\\Controllers\\PacijentController.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAcwA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T14:33:36.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LekarController.cs",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\LekarController.cs",
+              "RelativeDocumentMoniker": "domZdravlja\\Controllers\\LekarController.cs",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\Controllers\\LekarController.cs",
+              "RelativeToolTip": "domZdravlja\\Controllers\\LekarController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAqwLMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T14:29:55.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "lekari.json",
+              "DocumentMoniker": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Data\\lekari.json",
+              "RelativeDocumentMoniker": "domZdravlja\\App_Data\\lekari.json",
+              "ToolTip": "C:\\Users\\BURGIJA\\Desktop\\olaksaniprojekat-master\\HealthBooker\\domZdravlja\\App_Data\\lekari.json",
+              "RelativeToolTip": "domZdravlja\\App_Data\\lekari.json",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAMAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T14:22:59.054Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

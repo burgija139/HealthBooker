@@ -1,0 +1,172 @@
+﻿@model List<domZdravlja.Models.Pacijent>
+
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #343a40;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        thead {
+            background-color: #007bff;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        th, td {
+            padding: 15px 20px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        th {
+            font-weight: 600;
+            font-size: 14px;
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+        }
+
+        td {
+            font-size: 16px;
+            color: #495057;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        tr:hover {
+            background-color: #e2e6ea;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            color: white;
+            background-color: #007bff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 5px;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+
+        .btn-danger {
+            background-color: #dc3545;
+        }
+
+            .btn-danger:hover {
+                background-color: #c82333;
+            }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        form {
+            display: inline;
+        }
+
+        button {
+            background-color: #dc3545;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 5px;
+        }
+
+            button:hover {
+                background-color: #c82333;
+            }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h2>Pacijenti</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Korisnicko ime</th>
+                    <th>JMBG</th>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Datum rodjenja</th>
+                    <th>Email</th>
+                    <th>Akcija</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td>@p.KorisnickoIme</td>
+                        <td>@p.JMBG</td>
+                        <td>@p.Ime</td>
+                        <td>@p.Prezime</td>
+                        <td>@p.DatumRodjenja.ToString("dd.MM.yyyy")</td>
+                        <td>@p.Email</td>
+                        <td>
+                            <a href="@Url.Action("IzmeniPacijenta", "Administrator", new { korisnickoIme = p.KorisnickoIme })" class="btn">Izmena</a>
+                            <form action="@Url.Action("BrisiPacijenta", "Administrator")" method="post">
+                                <input type="hidden" name="korisnickoIme" value="@p.KorisnickoIme" />
+                                <button type="submit" class="btn btn-danger">Brisanje</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="btn-container">
+            <a href="@Url.Action("DodajPacijenta", "Administrator")" class="btn">Dodaj pacijenta</a>
+        </div>
+    </div>
+</body>
+</html>
